@@ -1,0 +1,1687 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Dashboard Lab</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-1 px-4">
+      <a href="#" class="navbar-brand">
+        <img src="img/logo.svg" alt="Brand Logo" class="d-block">
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapse_target">
+        <ul class="navbar-nav ml-auto align-content-end">
+          <li class="nav-item py-1 mr-5">
+            <a href="#" class="nav-link text-light h-100"><span><img src="img/home.svg" alt="Home Button" class="mr-3"></span>Home</a>
+          </li>
+          <li class="nav-item py-1 mr-5">
+              <a href="#" class="nav-link text-light h-100"><span><img src="img/project.svg" alt="Projects Icon" class="mr-3"></span>Projects</a>
+            </li>
+            <li class="nav-item py-1 mr-5">
+              <a href="#" class="nav-link text-light h-100">  <span><img src="img/mail.svg" alt="Mail Icon" class="mr-3"></span>Inbox</a>
+            </li>
+          <li class="nav-item py-1 mr-5">
+            <a href="#" class="nav-link text-light"><span><img src="img/user.svg" alt="Profile Icon" class="mr-3"></span>Profile</a>
+          </li>
+          <li class="nav-item py-1 mr-5">
+            <a href="#" class="nav-link text-light"><span><img src="img/settings.svg" alt="Setting Icon" class="mr-3"></span>Settings</a>
+          </li>
+          <li class="nav-item py-1 mr-5">
+            <a href="#" class="nav-link text-light"><span><img src="img/support.svg" alt="Customer Support Icon" class="mr-3"></span>Support</a>
+          </li>
+          <li class="py-1 mb-2">
+            <button type="button" class="btn btn-danger ">Logout</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- GRID -->
+    <section class="mt-4">
+      <div class="container">
+        <!-- CALENDAR -->
+        <div class="text-center mb-3 h3"><a href="#"><img src="img/arrow-left-solid.svg" alt="left"></a><p class="d-inline align-text-bottom mx-2">March</p><a href="#"><img src="img/arrow-right-solid.svg" alt="right"></a></div>
+        <table class="table table-responsive-lg border table-bordered mb-5">
+            <thead class="thead-dark">
+              <tr class="text-center">
+                <th scope="col">Sunday</th>
+                <th scope="col">Monday</th>
+                <th scope="col">Tuesday</th>
+                <th scope="col">Wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+                <th scope="col">Saturday</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-muted bg-light">26</td>
+                <td class="text-muted bg-light">27</td>
+                <td class="text-muted bg-light border-right-0 border-primary">28</td>
+                <td class="text-muted bg-light">29</td>
+                <td class="text-muted bg-light">30</td>
+                <td class="text-muted bg-light">31</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td class="border-bottom-0 border-primary">3</td>
+                <td class="border-primary">
+                  <p>4</p>
+                  <button class="text-dark btn btn-primary" type="button" data-toggle="popover" title="PHP Edmonton Company Database" data-content="9AM - 10:30AM @ W102. We're talking about the difference between ; and : for one last time." data-placement="bottom"><span class="mb-0 text-white">Meeting@W102</span></button>
+                </td>
+                <td>5</td>
+                <td>6</td>
+                <td class="border-right-0 border-primary">7</td>
+                <td>8</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td class="border-right-0 border-primary">12</td>
+                <td class="border-right-0">13</td>
+                <td class="border-primary">
+                  <p >14</p>
+                  <button class="text-dark btn btn-primary" type="button" data-toggle="popover" title="PHP Edmonton Company Database" data-content="8AM - 10:30AM @ W102. UI/UX prototype finalization. We have free coffee!" data-placement="bottom"><span class="mb-0 text-white">UI/UX Finalization</span></button>
+                </td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <td class="border-primary border-right-0 border-left-0">16</td>
+                <td>17</td>
+                <td class="border-primary border-bottom-0">18</td>
+                <td class="border-primary">
+                  <p >19</p>
+                  <button class="text-dark btn btn-primary" type="button" data-toggle="popover" title="PHP Edmonton Company Database" data-content="2PM - 4PM @CAT102. Reminder: Don't forget pencil (again)." data-placement="bottom"><span class="mb-0 text-white">Illustrator Workshop</span></button>
+                </td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+              </tr>
+              <tr>
+                <td class="border-primary">
+                  <p>23</p>
+                  <button class="text-dark btn btn-primary" type="button" data-toggle="popover" title="Misc. Events" data-content="Happy B-day to Mat, our office hamster! We're going to watch G-Force for some reason." data-placement="bottom"><span class="mb-0 text-white">Mat's B-Day!!!</span></button>
+                </td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- CALENDAR END -->
+<div class="row mb-5">
+  <!-- FIRST DASHBOARD OPTION PROJECT -->
+<div class="col-sm-12 col-lg-6 mb-3">
+  <div class="border border-dark rounded-lg p-4">
+    <h3 class="h1 mb-3 font-weight-bold">Project Listing</h3>
+    <p class="lead font-italic mb-3">
+      All active projects will be listed here. Archived and pending projects for deletion can be viewed in the Projects tab at the menu bar.
+    </p>
+    <!-- <button class="btn btn-primary d-block mr-auto p-2 mb-0" type="button" data-toggle="collapse" data-target="#collapseProjectListing" aria-expanded="false" aria-controls="collapseProjectListing">
+        View Projects
+        <span><img src="img/arrow-double-right.svg" alt="Double Arrow Right" class="ml-2"></span>
+    </button> -->
+        <!-- <div class="collapse mt-4" id="collapseProjectListing"> UNCOMMENT THIS LINE AND BUTTON LINE FOR COLLAPSINGVIEW PROJECT OPTION -->
+        <div class="collapse mt-4" id="collapseProjectListing"></div>
+          <div class="my-3 d-flex flex-wrap bg-dark text-white py-3 rounded-lg">
+            <h3 class="col h5 pt-2">Active Projects <span class="font-italic">(3)</span></h3>
+            <form action="#" class="col align-items-center d-flex justify-content-md-end">
+              <input type="text" placeholder="Search project" class="pl-1 mr-2">
+              <input type="submit" value="Search" class="btn btn-outline-light">
+            </form>
+          </div>
+          <!-- PROJECT CONTENT GOES IN HERE -->
+          <div>
+            <div class="card mb-5 border border-dark rounded-top">
+                <h5 class="text-primary h3 px-2 pt-2 mb-0 pb-1">PHP Edmonton Company Database</h5>
+                <h6 class="px-2 text-muted">PHP/MySQL</h6>
+                  <div class="card-body px-2 pt-53">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                      <p class="font-italic text-success font-weight-bold">Start: June 22, 2020</p>
+                      <p class="font-italic text-danger font-weight-bold">Due: Nov 12, 2020</p>
+                    </div>
+                    <p class="font-italic mb-1">You are the <span class="font-weight-bold text-success">Tech Lead</span> of this project. <span><img src="img/question.svg" alt="Tooltip" data-container="body" data-toggle="popover" data-placement="top" title="Tech Lead"></span></p>
+                    <ul id="popover-content" class="list-unstyled" style="display: none">
+                      <li class="mb-1">As the <span class="text-success font-italic font-weight-bold">Tech Lead</span> you have access to the following:</li>
+                      <li class="mb-1">Start, Archive or Remove a project</li>
+                      <li class="mb-1">Add or Remove participants</li>
+                      <li class="mb-1">Edit project details (Information, dates, milestones, etc...)</li>
+                      <li class="mb-1">Add, Remove, or Set limitations to attachments</li>
+                      <li class="mb-1">Set up meetings on projects you lead</li>
+                      <li class="mb-1">Control of comment section</li>
+                      <li class="mb-1">Recieve email notification on important project activities such as delete and archive.</li>
+                      <li class="mb-1">Restore deleted projects and files per request through the support page</li>
+                    </ul>
+                    <p class="card-text">A simple application that uses the CRUDS query to create a database of all tech companies in Edmonton.</p>
+                    <a class="btn btn-primary m-1" data-toggle="collapse" href="#collapseIllustrator" role="button" aria-expanded="false" aria-controls="collapseIllustrator">
+                      Quick Info <span><img src="img/arrow-double-right.svg" alt="Double Arrow Right"></span>
+                    </a>
+                    <a href="#" class="btn btn-outline-primary m-1">Go To Project</a>
+                    <!-- ARCHIVE MODAL BUTTON -->
+                    <a href="#" class="m-1 btn btn-outline-warning text-dark m-1" data-toggle="modal" data-target="#archiveProject">Archive</a>
+                    <!-- archive MESSAGE modal -->
+                    <div class="modal fade" id="archiveProject" tabindex="-1" role="dialog" aria-labelledby="archiveprojectLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="archiveprojectLabel">PHP Edmonton Company Database</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            Are you sure you want to archive the project <span class="font-italic bg-warning">PHP Edmonton Company Database</span>.
+                            Archiving the project will send out an email notification to participants of the project.
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-warning" data-dismiss="modal">Archive</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Button trigger modal DELETE-->
+                    <button type="button" class="btn btn-danger m-1" data-toggle="modal" data-target="#deleteProject">Delete</button>
+                    <!-- Modal MESSAGE FOR DELETE-->
+                    <div class="modal fade" id="deleteProject" tabindex="-1" role="dialog" aria-labelledby="deleteprojectLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="deleteprojectLabel">PHP Edmonton Company Database</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            Are you sure you want to delete the project <span class="font-italic bg-warning">PHP Edmonton Company Database</span>.
+                            Deleting the project will take five days and will send out an email notification to participants of the project.
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Delete</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- COLLAPSE CONTENT FOR QUICK INFO -->
+                    <div class="collapse mt-4" id="collapseIllustrator">
+                      <section>
+                        <ul class="nav nav-tabs md-tabs" id="myTabMD" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" id="attachment-tab-md" data-toggle="tab" href="#attachment-md" role="tab" aria-controls="attachment-md"
+                              aria-selected="true">Attachments (1)</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="participants-tab-md" data-toggle="tab" href="#participants-md" role="tab" aria-controls="participants-md"
+                              aria-selected="false">Participants (9)</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="comments-tab-md" data-toggle="tab" href="#comments-md" role="tab" aria-controls="comments-md"
+                              aria-selected="false">Comments (18)</a>
+                          </li>
+                        </ul>
+                        <div class="tab-content p-3 border border-top-0" id="myTabContentMD">
+                          <!-- ATTACHMENT TAB START -->
+                          <div class="tab-pane fade show active" id="attachment-md" role="tabpanel" aria-labelledby="attachment-tab-md">
+                            <div>
+                              <a href="#" data-toggle="modal" data-target="#attachmentModal" class="w-25 d-block">
+                                <img src="img/128px-PDF_file_icon.svg.png" alt="PDF Image" class="d-block mb-3">
+                                <p class="font-italic">company_directory_v2.pdf</p>
+                              </a>
+                              
+                              <button class="btn btn-primary mb-2 mr-2">Download all as .zip</button>
+                              <!-- Button trigger modal -->
+                              <button type="button" class="btn btn-danger mb-2 mr-2" data-toggle="modal" data-target="#attachmentModalremAll">
+                                Remove All
+                              </button>
+                              <div class="modal fade" id="attachmentModalremAll" tabindex="-1" role="dialog" aria-labelledby="modalLabelremAll" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="modalLabelremAll">PHP Edmonton Company Database Attachments</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p class="font-italic">
+                                        Deleting all attachments will notify the uploader. Do you want to proceed?
+                                      </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                      <button type="button" class="btn btn-danger" data-dismiss="modal">Remove All</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Modal -->
+                              <div class="modal fade" id="attachmentModal" tabindex="-1" role="dialog" aria-labelledby="attachmentModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="attachmentModalLabel">company_directory_v2.pdf</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p class="mb-0 font-italic">Uploaded by: John Doe</p>
+                                      <p CLASS="font-italic">Uploaded 2/26/2020 5:58 PM</p>
+                                      <p class="font-italic">
+                                        <span class="d-block">Uploader's Note:</span>
+                                        This is the pdf file I edited. Everything should be just copy and paste from the second paragraph until the end. Just pm me for any questions. I won't be in class for tomorrow since I'll be out of town. See ya!
+                                      </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-primary" data-dismiss="modal">Download</button>
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#removefileModal">Remove</button>
+                                      <!-- MODAL MESSAGE FOR REMOVE FILE START -->
+                                        <div class="modal fade" id="removefileModal" tabindex="-1" role="dialog" aria-labelledby="removefileModalLabel" aria-hidden="true">
+                                          <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <h5 class="modal-title" id="removefileModalLabel">Remove Attachment</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                              </div>
+                                              <div class="modal-body">
+                                                Uploader will be notified upon deletion.
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Remove</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      <!-- MODAL MESSAGE FOR REMOVE FILE END -->
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- ATTACHMENT TAB END -->
+                          <!-- PARTICIPANT TAB START -->
+                          <div class="tab-pane fade" id="participants-md" role="tabpanel" aria-labelledby="participants-tab-md">
+                            <!-- MESSAGE MODAL START -->
+                            <div class="modal fade" id="messageModal" tabindex="-1" role="dialog" aria-labelledby="messageModalLabel" aria-hidden="true">
+                             <div class="modal-dialog" role="document">
+                               <div class="modal-content">
+                                 <div class="modal-header">
+                                   <h5 class="modal-title" id="messageModalLabel">New message to User</h5>
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                     <span aria-hidden="true">&times;</span>
+                                   </button>
+                                 </div>
+                                 <div class="modal-body">
+                                   <form>
+                                     <!-- <div class="form-group">
+                                       <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                       <input type="text" class="form-control" id="recipient-name">
+                                     </div> -->
+                                     <div class="form-group">
+                                       <label for="message-text" class="col-form-label">Message:</label>
+                                       <textarea class="form-control" id="message-text"></textarea>
+                                     </div>
+                                   </form>
+                                 </div>
+                                 <div class="modal-footer">
+                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                   <button type="button" class="btn btn-primary" data-dismiss="modal">Send message</button>
+                                 </div>
+                               </div>
+                             </div>
+                           </div>
+                           <!-- MESSAGE MODAL END -->
+                           <!-- REMOVE PARTICIPANT MODAL START -->
+                           <div class="modal fade" id="removeuserModal" tabindex="-1" role="dialog" aria-labelledby="removeuserModalLabel" aria-hidden="true">
+                             <div class="modal-dialog" role="document">
+                               <div class="modal-content">
+                                 <div class="modal-header">
+                                   <h5 class="modal-title" id="removeuserModalLabel">Remove Participant</h5>
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                     <span aria-hidden="true">&times;</span>
+                                   </button>
+                                 </div>
+                                 <div class="modal-body">
+                                   The removed participant will be notified. Are you sure you want to remove participant?
+                                 </div>
+                                 <div class="modal-footer">
+                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                   <button type="button" class="btn btn-danger" data-dismiss="modal">Remove User</button>
+                                 </div>
+                               </div>
+                             </div>
+                           </div>
+                           <!-- REMOVE PARTICIPANT MODAL END -->
+                           <ul class="list-unstyled">
+                            <!-- PARTICIPANT LIST -->
+                              <li class="d-flex justify-content-between flex-wrap align-items-center px-2"><p class="mb-0"><img src="img/profile-pic.svg" alt="profile icon" class="mr-2">Owais Blackwell</p><span class="py-2"><button class="btn btn-primary mr-2" data-toggle="modal" data-target="#messageModal">Message</button><button class="btn btn-danger" data-toggle="modal" data-target="#removeuserModal">Remove</button></span></li>
+                              <li class="d-flex justify-content-between flex-wrap align-items-center px-2 bg-light"><p class="mb-0"><img src="img/profile-pic.svg" alt="profile icon" class="mr-2">Lara Mcmillan</p><span class="py-2"><button class="btn btn-primary mr-2" data-toggle="modal" data-target="#messageModal">Message</button><button class="btn btn-danger" data-toggle="modal" data-target="#removeuserModal">Remove</button></span></li>
+                              <li class="d-flex justify-content-between flex-wrap align-items-center px-2"><p class="mb-0"><img src="img/profile-pic.svg" alt="profile icon" class="mr-2">Ellise Arnold</p><span class="py-2"><button class="btn btn-primary mr-2" data-toggle="modal" data-target="#messageModal">Message</button><button class="btn btn-danger" data-toggle="modal" data-target="#removeuserModal">Remove</button></span></li>
+                              <li class="d-flex justify-content-between flex-wrap align-items-center px-2 bg-light"><p class="mb-0"><img src="img/profile-pic.svg" alt="profile icon" class="mr-2">Brian Lorn</p><span class="py-2"><button class="btn btn-primary mr-2" data-toggle="modal" data-target="#messageModal">Message</button><button class="btn btn-danger" data-toggle="modal" data-target="#removeuserModal">Remove</button></span></li>
+                              <li class="d-flex justify-content-between flex-wrap align-items-center px-2"><p class="mb-0"><img src="img/profile-pic.svg" alt="profile icon" class="mr-2">Sarah Mckinely</p><span class="py-2"><button class="btn btn-primary mr-2" data-toggle="modal" data-target="#messageModal">Message</button><button class="btn btn-danger" data-toggle="modal" data-target="#removeuserModal">Remove</button></span></li>
+                              <li class="d-flex justify-content-between flex-wrap align-items-center px-2 bg-light"><p class="mb-0"><img src="img/profile-pic.svg" alt="profile icon" class="mr-2">Mat Santiago</p><span class="py-2"><button class="btn btn-primary mr-2" data-toggle="modal" data-target="#messageModal">Message</button><button class="btn btn-danger" data-toggle="modal" data-target="#removeuserModal">Remove</button></span></li>
+                              <li class="d-flex justify-content-between flex-wrap align-items-center px-2"><p class="mb-0"><img src="img/profile-pic.svg" alt="profile icon" class="mr-2">Lolito Salva</p><span class="py-2"><button class="btn btn-primary mr-2" data-toggle="modal" data-target="#messageModal">Message</button><button class="btn btn-danger" data-toggle="modal" data-target="#removeuserModal">Remove</button></span></li>
+                              <li class="d-flex justify-content-between flex-wrap align-items-center px-2 bg-light"><p class="mb-0"><img src="img/profile-pic.svg" alt="profile icon" class="mr-2">Kevin Tran</p><span class="py-2"><button class="btn btn-primary mr-2" data-toggle="modal" data-target="#messageModal">Message</button><button class="btn btn-danger" data-toggle="modal" data-target="#removeuserModal">Remove</button></span></li>
+                              <li class="d-flex justify-content-between flex-wrap align-items-center px-2"><p class="mb-0"><img src="img/profile-pic.svg" alt="profile icon" class="mr-2">Norman Amin</p><span class="py-2"><button class="btn btn-primary mr-2" data-toggle="modal" data-target="#messageModal">Message</button><button class="btn btn-danger" data-toggle="modal" data-target="#removeuserModal">Remove</button></span></li>
+                           </ul>
+                          </div>
+                          <!-- PARTICIPANT TAB END -->
+                          
+                          <!-- COMMENTS SECTION -->
+                          <div class="tab-pane fade" id="comments-md" role="tabpanel" aria-labelledby="comments-tab-md">
+                            <ul class="p-0 d-flex flex-wrap">
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Owais Blackwell</p>
+                                <span class="font-italic d-inline align-middle"> ~ 2/28/2020 7:57PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Aren't we supposed to have a meeting after Mat's BDay? Why are we watching GForce?</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModal">Comment</button>
+                                  <div class="modal fade" id="commentModal" tabindex="-1" role="dialog" aria-labelledby="commentModalTitle" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title" id="commentModalTitle">Write comment</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                          <form action="#">
+                                            <label for="comment">Comment: </label>
+                                            <textarea class="form-control" id="comment"></textarea>
+                                          </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-primary" data-dismiss="modal">Comment</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#hideFlag">Hide</button>
+                                  <div class="modal fade" id="hideFlag" tabindex="-1" role="dialog" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title" id="hideFlaglTitle">Flag</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                         Flagging this comment will send a notification to the author. Do you want to flag this comment?
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-warning" data-dismiss="modal">Flag</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#hideFlag">Flag</button>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Lara mcMillan</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/20/2020 6:30PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Had a hard time compiling. I'm going to be late.</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModal">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#hideFlag">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#hideFlag">Flag</button>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Brian Lorn</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/19/2020 8:45PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Had a hard time compiling. I'm going to be late.</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModal">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#hideFlag">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#hideFlag">Flag</button>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Norman Amin</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/18/2020 5:25PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Sorry for late update. My dog ate my computer.</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModal">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#hideFlag">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#hideFlag">Flag</button>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Lolito Salva</p>
+                                <span class="font-italic d-inline align-middle"> ~ 2/10/2020 3:00AM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">The validation is done and I want to go home.</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModal">Comment</button>
+                                  <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="commentModalTitle" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title">Write comment</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                          <form action="#">
+                                            <label for="comment">Comment: </label>
+                                            <textarea class="form-control"></textarea>
+                                          </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-primary" data-dismiss="modal">Comment</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#hideFlag">Hide</button>
+                                  <div class="modal fade" tabindex="-1" role="dialog"  aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title">Flag</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                          Flagging this comment will send a notification to the author. Do you want to flag this comment?
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-warning" data-dismiss="modal">Flag</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#hideFlag">Flag</button>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Sarah Mckinely</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/17/2020 6:30PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Nice work guys! Just few more months of development hell and we're good to go!</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModal">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#hideFlag">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#hideFlag">Flag</button>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Ellise Arnold</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/16/2020 8:45PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Please bring our own laptops and hard drives. The pc inside the project room are trash. So much for my tuition.</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModal">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#hideFlag">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#hideFlag">Flag</button>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-0">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Kevin Tran</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/12/2020 4:3AM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">This is getting getting out of hand. The project room is so messy and the computers are'nt even working properly.</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModal">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#hideFlag">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#hideFlag">Flag</button>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                          <!-- COMMENTS SECTION -->
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+            </div>
+          </div>
+
+          <!-- PROJECT CONTENT 2 -->
+          <div>
+            <div class="card mb-5 border border-dark rounded-top">
+                <h5 class="text-primary h3 px-2 pt-2 mb-0 pb-1">Typography Poster</h5>
+                <h6 class="px-2 text-muted">Visual Communications II</h6>
+                  <div class="card-body px-2 pt-53">
+                    <div class="progress">
+                      <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                      <p class="font-italic text-success font-weight-bold">Start: August 6, 2020</p>
+                      <p class="font-italic text-danger font-weight-bold">Due: Oct 31, 2020</p>
+                    </div>
+                    <p class="font-italic mb-1">You are the <span class="font-weight-bold text-success">Creative Director</span> of this project. <span><img src="img/question.svg" alt="Tooltip" data-container="body" data-toggle="popover" data-placement="top" title="Creative Director"></span></p>
+                    <ul id="popover-content-2" class="list-unstyled" style="display: none">
+                      <li class="mb-1">As the <span class="text-success font-italic font-weight-bold">Project Leader</span> you have the ability to:</li>
+                      <li class="mb-1">Start, Archive or Remove a project</li>
+                      <li class="mb-1">Add or Remove participants</li>
+                      <li class="mb-1">Edit project details (Information, dates, milestones, etc...)</li>
+                      <li class="mb-1">Add, Remove, or Set limitations to attachments</li>
+                      <li class="mb-1">Set up meetings on projects you lead</li>
+                      <li class="mb-1">Control of comment section</li>
+                      <li class="mb-1">Recieve email notification on important project activities such as delete and archive.</li>
+                      <li class="mb-1">Restore deleted projects and files per request through the support page</li>
+                    </ul>
+                    <p class="card-text">Typography Poster for XYZ Design Co. This project will also be marked for Vis Comm II course.</p>
+                    <a class="btn btn-primary m-1" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      Quick Info <span><img src="img/arrow-double-right.svg" alt="Double Arrow Right"></span>
+                    </a>
+                    <a href="#" class="btn btn-outline-primary m-1">Go To Project</a>
+                    <!-- ARCHIVE MODAL BUTTON -->
+                    <a href="#" class="m-1 btn btn-outline-warning text-dark m-1" data-toggle="modal" data-target="#archiveProjectIllustrator">Archive</a>
+                    <!-- archive MESSAGE modal -->
+                    <div class="modal fade" id="archiveProjectIllustrator" tabindex="-1" role="dialog" aria-labelledby="archiveprojectLabelIllustrator" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="archiveprojectLabelIllustrator">Typography Poster</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            Are you sure you want to archive the project <span class="font-italic bg-warning">Typography Poster</span>.
+                            Archiving the project will send out an email notification to participants of the project.
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-warning" data-dismiss="modal">Archive</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Button trigger modal DELETE-->
+                    <button type="button" class="btn btn-danger m-1" data-toggle="modal" data-target="#deleteProjectIllustrator">Delete</button>
+                    <!-- Modal MESSAGE FOR DELETE-->
+                    <div class="modal fade" id="deleteProjectIllustrator" tabindex="-1" role="dialog" aria-labelledby="deleteprojectLabelIllustrator" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="deleteprojectLabelIllustrator">Typography Poster</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            Are you sure you want to delete the project <span class="font-italic bg-warning">Typography  Poster</span>.
+                            Deleting the project will take five days and will send out an email notification to participants of the project.
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Delete</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- COLLAPSE CONTENT FOR QUICK INFO -->
+                    <div class="collapse mt-4" id="collapseExample">
+                      <section>
+                        <ul class="nav nav-tabs md-tabs" id="myTabMDIllustrator" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" id="attachment-tab-mdIllustrator" data-toggle="tab" href="#attachment-mdIllustrator" role="tab" aria-controls="attachment-mdIllustrator"
+                              aria-selected="true">Attachments (0)</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="participants-tab-mdIllustrator" data-toggle="tab" href="#participantsIllustrator" role="tab" aria-controls="participantsIllustrator"
+                              aria-selected="false">Participants (4)</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="commentIllustrator" data-toggle="tab" href="#comment-md-Illustrator" role="tab" aria-controls="comment-md-Illustrator"
+                              aria-selected="false">Comments (3)</a>
+                          </li>
+                        </ul>
+                        <div class="tab-content p-3 border border-top-0" id="myTabContentMDIllustrator">
+                          <!-- ATTACHMENT TAB START -->
+                          <div class="tab-pane fade show active" id="attachment-mdIllustrator" role="tabpanel" aria-labelledby="attachment-tab-mdIllustrator">
+                            <div>
+                              <!-- <a href="#" data-toggle="modal" data-target="#attachmentModal" class="w-25 d-block">
+                                <img src="img/128px-PDF_file_icon.svg.png" alt="PDF Image" class="d-block mb-3">
+                                <p class="font-italic">company_directory_v2.pdf</p>
+                              </a> -->
+                              <p class="font-italic">No attachments available</p>
+
+                              <button class="btn btn-primary mb-2 mr-2">Download all as .zip</button>
+                              <!-- Button trigger modal -->
+                              <button type="button" class="btn btn-danger mb-2 mr-2" data-toggle="modal" data-target="#modalIllustrator">
+                                Remove All
+                              </button>
+                              <!-- Modal -->
+                              <div class="modal fade" id="modalIllustrator" tabindex="-1" role="dialog" aria-labelledby="modalLabelIllustrator" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="modalLabelIllustrator">Typography Poster Attachments</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p class="font-italic">
+                                        No attachments to delete.
+                                      </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- ATTACHMENT TAB END -->
+
+                          <!-- PARTICIPANT TAB START -->
+                          <div class="tab-pane fade" id="participantsIllustrator" role="tabpanel" aria-labelledby="participants-tab-mdIllustrator">
+                            <!-- MESSAGE MODAL START -->
+                            <div class="modal fade" id="messageModalIllustrator" role="dialog" aria-labelledby="messageModalLabelIllustrator" aria-hidden="true">
+                             <div class="modal-dialog" role="document">
+                               <div class="modal-content">
+                                 <div class="modal-header">
+                                   <h5 class="modal-title" id="messageModalLabelIllustrator">New message to User</h5>
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                     <span aria-hidden="true">&times;</span>
+                                   </button>
+                                 </div>
+                                 <div class="modal-body">
+                                   <form>
+                                     <!-- <div class="form-group">
+                                       <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                       <input type="text" class="form-control" id="recipient-name">
+                                     </div> -->
+                                     <div class="form-group">
+                                       <label for="message-text-illus" class="col-form-label">Message:</label>
+                                       <textarea class="form-control" id="message-text-illus"></textarea>
+                                     </div>
+                                   </form>
+                                 </div>
+                                 <div class="modal-footer">
+                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                   <button type="button" class="btn btn-primary" data-dismiss="modal">Send message</button>
+                                 </div>
+                               </div>
+                             </div>
+                           </div>
+                           <!-- MESSAGE MODAL END -->
+                           <!-- REMOVE PARTICIPANT MODAL START -->
+                           <div class="modal fade" id="removeuserModalIllustrator" tabindex="-1" role="dialog" aria-labelledby="removeuserModalLabelIllustrator" aria-hidden="true">
+                             <div class="modal-dialog" role="document">
+                               <div class="modal-content">
+                                 <div class="modal-header">
+                                   <h5 class="modal-title" id="removeuserModalLabelIllustrator">Remove Participant</h5>
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                     <span aria-hidden="true">&times;</span>
+                                   </button>
+                                 </div>
+                                 <div class="modal-body">
+                                   The removed participant will be notified. Are you sure you want to remove participant?
+                                 </div>
+                                 <div class="modal-footer">
+                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                   <button type="button" class="btn btn-danger" data-dismiss="modal">Remove User</button>
+                                 </div>
+                               </div>
+                             </div>
+                           </div>
+                           <!-- REMOVE PARTICIPANT MODAL END -->
+                           <ul class="list-unstyled">
+                            <!-- PARTICIPANT LIST -->
+                              <li class="d-flex justify-content-between flex-wrap align-items-center px-2"><p class="mb-0"><img src="img/profile-pic.svg" alt="profile icon" class="mr-2">Owais Blackwell</p><span class="py-2"><button class="btn btn-primary mr-2" data-toggle="modal" data-target="#messageModalIllustrator">Message</button><button class="btn btn-danger" data-toggle="modal" data-target="#removeuserModalIllustrator">Remove</button></span></li>
+                              <li class="d-flex justify-content-between flex-wrap align-items-center px-2 bg-light"><p class="mb-0"><img src="img/profile-pic.svg" alt="profile icon" class="mr-2">Lara Mcmillan</p><span class="py-2"><button class="btn btn-primary mr-2" data-toggle="modal" data-target="#messageModalIllustrator">Message</button><button class="btn btn-danger" data-toggle="modal" data-target="#removeuserModalIllustrator">Remove</button></span></li>
+                              <li class="d-flex justify-content-between flex-wrap align-items-center px-2"><p class="mb-0"><img src="img/profile-pic.svg" alt="profile icon" class="mr-2">Ellise Arnold</p><span class="py-2"><button class="btn btn-primary mr-2" data-toggle="modal" data-target="#messageModalIllustrator">Message</button><button class="btn btn-danger" data-toggle="modal" data-target="#removeuserModalIllustrator">Remove</button></span></li>
+                              <li class="d-flex justify-content-between flex-wrap align-items-center px-2 bg-light"><p class="mb-0"><img src="img/profile-pic.svg" alt="profile icon" class="mr-2">Brian Lorn</p><span class="py-2"><button class="btn btn-primary mr-2" data-toggle="modal" data-target="#messageModalIllustrator">Message</button><button class="btn btn-danger" data-toggle="modal" data-target="#removeuserModalIllustrator">Remove</button></span></li>
+                           </ul>
+                          </div>
+                          <!-- PARTICIPANT TAB END -->
+                          
+                          <!-- COMMENTS SECTION -->
+                          <div class="tab-pane fade" id="comment-md-Illustrator" role="tabpanel" aria-labelledby="commentIllustrator">
+                            <ul class="p-0 d-flex flex-wrap">
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Owais Blackwell</p>
+                                <span class="font-italic d-inline align-middle"> ~ 2/28/2020 7:57PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Aren't we supposed to have a meeting after Mat's BDay? Why are we watching GForce?</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <div class="modal fade" id="commentModalIllustrator" tabindex="-1" role="dialog" aria-labelledby="commentModalTitleIllustrator" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title" id="commentModalTitleIllustrator">Write comment</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                          <form action="#">
+                                            <label for="comment-illus">Comment: </label>
+                                            <textarea class="form-control" id="comment-illus"></textarea>
+                                          </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-primary" data-dismiss="modal">Comment</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#hideFlagIllustrator">Hide</button>
+                                  <div class="modal fade" id="hideFlagIllustrator" tabindex="-1" role="dialog" aria-labelledby="hideFlaglTitleIllustrator" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title" id="hideFlaglTitleIllustrator">Flag</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                         Flagging this comment will send a notification to the author. Do you want to flag this comment?
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-warning" data-dismiss="modal">Flag</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                  <div class="modal fade" id="flagIllustrator" tabindex="-1" role="dialog" aria-labelledby="flaglTitleIllustrator" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title" id="flaglTitleIllustrator">Flag</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                         Flagging this comment will send a notification to the author. Do you want to flag this comment?
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-warning" data-dismiss="modal">Flag</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Brian Lorn</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/19/2020 8:45PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Had a hard time compiling. I'm going to be late.</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>                           
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Sarah Mckinely</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/17/2020 6:30PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Nice work guys! Just few more months of development hell and we're good to go!</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                          <!-- COMMENTS SECTION -->
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+            </div>
+          </div>
+
+          <!-- PROJECT CONTENT 3 -->
+          <div>
+            <div class="card mb-5 border border-dark rounded-top">
+                <h5 class="text-primary h3 px-2 pt-2 mb-0 pb-1">LS Co. Brand Overhaul</h5>
+                <h6 class="px-2 text-muted">Marketing and Design II</h6>
+                  <div class="card-body px-2 pt-53">
+                    <div class="progress">
+                      <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                      <p class="font-italic text-success font-weight-bold">Start: Jan 8, 2020</p>
+                      <p class="font-italic text-danger font-weight-bold">Due: Oct 2, 2020</p>
+                    </div>
+                    <p class="font-italic mb-1">You are the <span class="font-weight-bold text-success">Lead Researcher</span> of this project. <span><img src="img/question.svg" alt="Tooltip" data-container="body" data-toggle="popover" data-placement="top" title="Creative Director"></span></p>
+                    <ul id="popover-content-3" class="list-unstyled" style="display: none">
+                      <li class="mb-1">As the <span class="text-success font-italic font-weight-bold">Project Leader</span> you have the ability to:</li>
+                      <li class="mb-1">Start, Archive or Remove a project</li>
+                      <li class="mb-1">Add or Remove participants</li>
+                      <li class="mb-1">Edit project details (Information, dates, milestones, etc...)</li>
+                      <li class="mb-1">Add, Remove, or Set limitations to attachments</li>
+                      <li class="mb-1">Set up meetings on projects you lead</li>
+                      <li class="mb-1">Control of comment section</li>
+                      <li class="mb-1">Recieve email notification on important project activities such as delete and archive.</li>
+                      <li class="mb-1">Restore deleted projects and files per request through the support page</li>
+                    </ul>
+                    <p class="card-text">A branding and marketing overhaul for LS Design Co.</p>
+                    <a class="btn btn-primary m-1" data-toggle="collapse" href="#collapseBrand" role="button" aria-expanded="false" aria-controls="collapseBrand">
+                      Quick Info <span><img src="img/arrow-double-right.svg" alt="Double Arrow Right"></span>
+                    </a>
+                    <a href="#" class="btn btn-outline-primary m-1">Go To Project</a>
+                    <!-- ARCHIVE MODAL BUTTON -->
+                    <a href="#" class="m-1 btn btn-outline-warning text-dark m-1" data-toggle="modal" data-target="#archiveProjectBrand">Archive</a>
+                    <!-- archive MESSAGE modal -->
+                    <div class="modal fade" id="archiveProjectBrand" tabindex="-1" role="dialog" aria-labelledby="archiveprojectLabelBrand" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="archiveprojectLabelBrand">LS Co. Brand Overhaul</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            Are you sure you want to archive the project <span class="font-italic bg-warning">LS Co. Brand Overhaul</span>.
+                            Archiving the project will send out an email notification to participants of the project.
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-warning" data-dismiss="modal">Archive</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Button trigger modal DELETE-->
+                    <button type="button" class="btn btn-danger m-1" data-toggle="modal" data-target="#deleteProjectBrand">Delete</button>
+                    <!-- Modal MESSAGE FOR DELETE-->
+                    <div class="modal fade" id="deleteProjectBrand" tabindex="-1" role="dialog" aria-labelledby="deleteprojectLabelBrand" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="deleteprojectLabelBrand">Typography Poster</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            Are you sure you want to delete the project <span class="font-italic bg-warning">Typography  Poster</span>.
+                            Deleting the project will take five days and will send out an email notification to participants of the project.
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Delete</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- COLLAPSE CONTENT FOR QUICK INFO -->
+                    <div class="collapse mt-4" id="collapseBrand">
+                      <section>
+                        <ul class="nav nav-tabs md-tabs" id="myTabMDBrand" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" id="attachment-tab-mdBrand" data-toggle="tab" href="#attachment-mdBrand" role="tab" aria-controls="attachment-mdBrand"
+                              aria-selected="true">Attachments (11)</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="participants-tab-mdBrand" data-toggle="tab" href="#participantsBrand" role="tab" aria-controls="participantsBrand"
+                              aria-selected="false">Participants (16)</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="commentBrand" data-toggle="tab" href="#comment-md-Brand" role="tab" aria-controls="comment-md-Brand"
+                              aria-selected="false">Comments (31)</a>
+                          </li>
+                        </ul>
+                        <div class="tab-content p-3 border border-top-0" id="myTabContentMDBrand">
+                          <!-- ATTACHMENT TAB START -->
+                          <div class="tab-pane fade show active" id="attachment-mdBrand" role="tabpanel" aria-labelledby="attachment-tab-mdBrand">
+                            <div class="d-flex flex-wrap">
+                              <a href="#" data-toggle="modal" data-target="#modalFileBrand" class="d-block">
+                                <img src="img/128px-PDF_file_icon.svg.png" alt="PDF Image" class="d-block mb-3">
+                                <p class="font-italic">research_demographics_v1.pdf</p>
+                              </a>
+                              <a href="#" data-toggle="modal" data-target="#modalFileBrand" class="d-block">
+                                <img src="img/128px-PDF_file_icon.svg.png" alt="PDF Image" class="d-block mb-3">
+                                <p class="font-italic">research_demographics_v1.pdf</p>
+                              </a>
+                              <a href="#" data-toggle="modal" data-target="#modalFileBrand" class="d-block">
+                                <img src="img/128px-PDF_file_icon.svg.png" alt="PDF Image" class="d-block mb-3">
+                                <p class="font-italic">research_demographics_v1.pdf</p>
+                              </a>
+                              <a href="#" data-toggle="modal" data-target="#modalFileBrand" class="d-block">
+                                <img src="img/128px-PDF_file_icon.svg.png" alt="PDF Image" class="d-block mb-3">
+                                <p class="font-italic">research_demographics_v1.pdf</p>
+                              </a>
+                              <a href="#" data-toggle="modal" data-target="#modalFileBrand" class="d-block">
+                                <img src="img/128px-PDF_file_icon.svg.png" alt="PDF Image" class="d-block mb-3">
+                                <p class="font-italic">research_demographics_v1.pdf</p>
+                              </a>
+                              <a href="#" data-toggle="modal" data-target="#modalFileBrand" class="d-block">
+                                <img src="img/128px-PDF_file_icon.svg.png" alt="PDF Image" class="d-block mb-3">
+                                <p class="font-italic">research_demographics_v1.pdf</p>
+                              </a>
+                              <a href="#" data-toggle="modal" data-target="#modalFileBrand" class="d-block">
+                                <img src="img/128px-PDF_file_icon.svg.png" alt="PDF Image" class="d-block mb-3">
+                                <p class="font-italic">research_demographics_v1.pdf</p>
+                              </a>
+                              <a href="#" data-toggle="modal" data-target="#modalFileBrand" class="d-block">
+                                <img src="img/128px-PDF_file_icon.svg.png" alt="PDF Image" class="d-block mb-3">
+                                <p class="font-italic">research_demographics_v1.pdf</p>
+                              </a>
+                              <a href="#" data-toggle="modal" data-target="#modalFileBrand" class="d-block">
+                                <img src="img/128px-PDF_file_icon.svg.png" alt="PDF Image" class="d-block mb-3">
+                                <p class="font-italic">research_demographics_v1.pdf</p>
+                              </a>
+                              <a href="#" data-toggle="modal" data-target="#modalFileBrand" class="d-block">
+                                <img src="img/128px-PDF_file_icon.svg.png" alt="PDF Image" class="d-block mb-3">
+                                <p class="font-italic">research_demographics_v1.pdf</p>
+                              </a>
+                              <a href="#" data-toggle="modal" data-target="#modalFileBrand" class="d-block">
+                                <img src="img/128px-PDF_file_icon.svg.png" alt="PDF Image" class="d-block mb-3">
+                                <p class="font-italic">research_demographics_v1.pdf</p>
+                              </a>
+                              <a href="#" data-toggle="modal" data-target="#modalFileBrand" class="d-block">
+                                <img src="img/128px-PDF_file_icon.svg.png" alt="PDF Image" class="d-block mb-3">
+                                <p class="font-italic">research_demographics_v1.pdf</p>
+                              </a>
+                              <a href="#" data-toggle="modal" data-target="#modalFileBrand" class="d-block">
+                                <img src="img/128px-PDF_file_icon.svg.png" alt="PDF Image" class="d-block mb-3">
+                                <p class="font-italic">research_demographics_v1.pdf</p>
+                              </a>
+                              <a href="#" data-toggle="modal" data-target="#modalFileBrand" class="d-block">
+                                <img src="img/128px-PDF_file_icon.svg.png" alt="PDF Image" class="d-block mb-3">
+                                <p class="font-italic">research_demographics_v1.pdf</p>
+                              </a>
+                              <a href="#" data-toggle="modal" data-target="#modalFileBrand" class="d-block">
+                                <img src="img/128px-PDF_file_icon.svg.png" alt="PDF Image" class="d-block mb-3">
+                                <p class="font-italic">research_demographics_v1.pdf</p>
+                              </a>
+                              <a href="#" data-toggle="modal" data-target="#modalFileBrand" class="d-block">
+                                <img src="img/128px-PDF_file_icon.svg.png" alt="PDF Image" class="d-block mb-3">
+                                <p class="font-italic">research_demographics_v1.pdf</p>
+                              </a>
+                              <!-- MODAL FOR FILE IN BRAND -->
+                              <div class="modal fade" id="modalFileBrand" tabindex="-1" role="dialog" aria-labelledby="attachmentModalLabelBrand" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="attachmentModalLabelBrand">research_demographics_v1.pdf</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p class="mb-0 font-italic">Uploaded by: John Doe</p>
+                                      <p CLASS="font-italic">Uploaded 2/26/2020 5:58 PM</p>
+                                      <p class="font-italic">
+                                        <span class="d-block">Uploader's Note:</span>
+                                        This is the pdf file I edited. Everything should be just copy and paste from the second paragraph until the end. Just pm me for any questions. I won't be in class for tomorrow since I'll be out of town. See ya!
+                                      </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-primary" data-dismiss="modal">Download</button>
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#removefileModalBrand">Remove</button>
+                                      <!-- MODAL MESSAGE FOR REMOVE FILE START -->
+                                        <div class="modal fade" id="removefileModalBrand" tabindex="-1" role="dialog" aria-labelledby="removefileModalLabelBrand" aria-hidden="true">
+                                          <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <h5 class="modal-title" id="removefileModalLabelBrand">Remove Attachment</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                              </div>
+                                              <div class="modal-body">
+                                                Uploader will be notified upon deletion.
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Remove</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      <!-- MODAL MESSAGE FOR REMOVE FILE END -->
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- MODEL FOR FILE IN BRAND END -->
+                              <div>
+                                <button class="btn btn-primary mb-2 mr-2">Download all as .zip</button>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-danger mb-2 mr-2" data-toggle="modal" data-target="#modalBrand">
+                                  Remove All
+                                </button>
+                              </div>
+                              <!-- Modal -->
+                              <div class="modal fade" id="modalBrand" tabindex="-1" role="dialog" aria-labelledby="modalLabelBrand" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="modalLabelBrand">LS Co. Brand Overhaul Attachments</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p class="font-italic">
+                                        Deleting all attachments will notify the uploader. Proceed?
+                                      </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                      <button type="button" class="btn btn-danger" data-dismiss="modal">Remove All</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- ATTACHMENT TAB END -->
+
+                          <!-- PARTICIPANT TAB START -->
+                          <div class="tab-pane fade" id="participantsBrand" role="tabpanel" aria-labelledby="participants-tab-mdBrand">
+                            <!-- MESSAGE MODAL START -->
+                            <div class="modal fade" id="messageModalBrand" role="dialog" aria-labelledby="messageModalLabelBrand" aria-hidden="true">
+                             <div class="modal-dialog" role="document">
+                               <div class="modal-content">
+                                 <div class="modal-header">
+                                   <h5 class="modal-title" id="messageModalLabelBrand">New message to User</h5>
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                     <span aria-hidden="true">&times;</span>
+                                   </button>
+                                 </div>
+                                 <div class="modal-body">
+                                   <form>
+                                     <!-- <div class="form-group">
+                                       <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                       <input type="text" class="form-control" id="recipient-name">
+                                     </div> -->
+                                     <div class="form-group">
+                                       <label for="message-text-brand" class="col-form-label">Message:</label>
+                                       <textarea class="form-control" id="message-text-brand"></textarea>
+                                     </div>
+                                   </form>
+                                 </div>
+                                 <div class="modal-footer">
+                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                   <button type="button" class="btn btn-primary" data-dismiss="modal">Send message</button>
+                                 </div>
+                               </div>
+                             </div>
+                           </div>
+                           <!-- MESSAGE MODAL END -->
+                           <!-- REMOVE PARTICIPANT MODAL START -->
+                           <div class="modal fade" id="removeuserModalBrand" tabindex="-1" role="dialog" aria-labelledby="removeuserModalLabelBrand" aria-hidden="true">
+                             <div class="modal-dialog" role="document">
+                               <div class="modal-content">
+                                 <div class="modal-header">
+                                   <h5 class="modal-title" id="removeuserModalLabelBrand">Remove Participant</h5>
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                     <span aria-hidden="true">&times;</span>
+                                   </button>
+                                 </div>
+                                 <div class="modal-body">
+                                   The removed participant will be notified. Are you sure you want to remove participant?
+                                 </div>
+                                 <div class="modal-footer">
+                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                   <button type="button" class="btn btn-danger" data-dismiss="modal">Remove User</button>
+                                 </div>
+                               </div>
+                             </div>
+                           </div>
+                           <!-- REMOVE PARTICIPANT MODAL END -->
+                           <ul class="list-unstyled">
+                            <!-- PARTICIPANT LIST -->
+                              <li class="d-flex justify-content-between flex-wrap align-items-center px-2"><p class="mb-0"><img src="img/profile-pic.svg" alt="profile icon" class="mr-2">Owais Blackwell</p><span class="py-2"><button class="btn btn-primary mr-2" data-toggle="modal" data-target="#messageModalBrand">Message</button><button class="btn btn-danger" data-toggle="modal" data-target="#removeuserModalBrand">Remove</button></span></li>
+                              <li class="d-flex justify-content-between flex-wrap align-items-center px-2 bg-light"><p class="mb-0"><img src="img/profile-pic.svg" alt="profile icon" class="mr-2">Lara Mcmillan</p><span class="py-2"><button class="btn btn-primary mr-2" data-toggle="modal" data-target="#messageModalBrand">Message</button><button class="btn btn-danger" data-toggle="modal" data-target="#removeuserModalBrand">Remove</button></span></li>
+                              <li class="d-flex justify-content-between flex-wrap align-items-center px-2"><p class="mb-0"><img src="img/profile-pic.svg" alt="profile icon" class="mr-2">Ellise Arnold</p><span class="py-2"><button class="btn btn-primary mr-2" data-toggle="modal" data-target="#messageModalBrand">Message</button><button class="btn btn-danger" data-toggle="modal" data-target="#removeuserModalBrand">Remove</button></span></li>
+                              <li class="d-flex justify-content-between flex-wrap align-items-center px-2 bg-light"><p class="mb-0"><img src="img/profile-pic.svg" alt="profile icon" class="mr-2">Brian Lorn</p><span class="py-2"><button class="btn btn-primary mr-2" data-toggle="modal" data-target="#messageModalBrand">Message</button><button class="btn btn-danger" data-toggle="modal" data-target="#removeuserModalBrand">Remove</button></span></li>
+                           </ul>
+                          </div>
+                          <!-- PARTICIPANT TAB END -->
+                          
+                          <!-- COMMENTS SECTION -->
+                          <div class="tab-pane fade" id="comment-md-Brand" role="tabpanel" aria-labelledby="commentBrand">
+                            <ul class="p-0 d-flex flex-wrap">
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Owais Blackwell</p>
+                                <span class="font-italic d-inline align-middle"> ~ 2/28/2020 7:57PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Aren't we supposed to have a meeting after Mat's BDay? Why are we watching GForce?</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalBrand">Comment</button>
+                                  <div class="modal fade" id="commentModalBrand" tabindex="-1" role="dialog" aria-labelledby="commentModalTitleBrand" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title" id="commentModalTitleBrand">Write comment</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                          <form action="#">
+                                            <label for="comment-Brand">Comment: </label>
+                                            <textarea class="form-control" id="comment-Brand"></textarea>
+                                          </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-primary" data-dismiss="modal">Comment</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#hideFlagBrand">Hide</button>
+                                  <div class="modal fade" id="hideFlagBrand" tabindex="-1" role="dialog" aria-labelledby="hideFlaglTitleBrand" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title" id="hideFlaglTitleBrand">Flag</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                         Flagging this comment will send a notification to the author. Do you want to flag this comment?
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-warning" data-dismiss="modal">Flag</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagBrand">Flag</button>
+                                  <div class="modal fade" id="flagBrand" tabindex="-1" role="dialog" aria-labelledby="flaglTitleBrand" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title" id="flaglTitleBrand">Flag</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                         Flagging this comment will send a notification to the author. Do you want to flag this comment?
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-warning" data-dismiss="modal">Flag</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Brian Lorn</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/19/2020 8:45PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Had a hard time compiling. I'm going to be late.</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>                           
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Sarah Mckinely</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/17/2020 6:30PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Nice work guys! Just few more months of development hell and we're good to go!</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Brian Lorn</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/19/2020 8:45PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Had a hard time compiling. I'm going to be late.</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>                           
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Sarah Mckinely</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/17/2020 6:30PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Nice work guys! Just few more months of development hell and we're good to go!</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Brian Lorn</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/19/2020 8:45PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Had a hard time compiling. I'm going to be late.</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>                           
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Sarah Mckinely</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/17/2020 6:30PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Nice work guys! Just few more months of development hell and we're good to go!</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Brian Lorn</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/19/2020 8:45PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Had a hard time compiling. I'm going to be late.</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>                           
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Sarah Mckinely</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/17/2020 6:30PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Nice work guys! Just few more months of development hell and we're good to go!</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Brian Lorn</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/19/2020 8:45PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Had a hard time compiling. I'm going to be late.</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>                           
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Sarah Mckinely</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/17/2020 6:30PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Nice work guys! Just few more months of development hell and we're good to go!</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Brian Lorn</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/19/2020 8:45PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Had a hard time compiling. I'm going to be late.</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>                           
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Sarah Mckinely</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/17/2020 6:30PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Nice work guys! Just few more months of development hell and we're good to go!</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Brian Lorn</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/19/2020 8:45PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Had a hard time compiling. I'm going to be late.</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>                           
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Sarah Mckinely</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/17/2020 6:30PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Nice work guys! Just few more months of development hell and we're good to go!</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Brian Lorn</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/19/2020 8:45PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Had a hard time compiling. I'm going to be late.</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>                           
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Sarah Mckinely</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/17/2020 6:30PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Nice work guys! Just few more months of development hell and we're good to go!</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Brian Lorn</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/19/2020 8:45PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Had a hard time compiling. I'm going to be late.</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>                           
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Sarah Mckinely</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/17/2020 6:30PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Nice work guys! Just few more months of development hell and we're good to go!</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Brian Lorn</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/19/2020 8:45PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Had a hard time compiling. I'm going to be late.</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>                           
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Sarah Mckinely</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/17/2020 6:30PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Nice work guys! Just few more months of development hell and we're good to go!</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Brian Lorn</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/19/2020 8:45PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Had a hard time compiling. I'm going to be late.</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>                           
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Sarah Mckinely</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/17/2020 6:30PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Nice work guys! Just few more months of development hell and we're good to go!</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Brian Lorn</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/19/2020 8:45PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Had a hard time compiling. I'm going to be late.</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>                           
+                              <li class="d-block w-100 border border-secondary p-3 mb-4">
+                                <img src="img/profile-pic.svg" alt="Icon" class="mr-2">
+                                <p class="d-inline align-middle font-weight-bold">Sarah Mckinely</p>
+                                <span class="font-italic d-inline align-middle"> ~ 1/17/2020 6:30PM</span>
+                                <div>
+                                  <p class="border-top border-dark mt-2 pt-2">Nice work guys! Just few more months of development hell and we're good to go!</p>
+                                  <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#commentModalIllustrator">Comment</button>
+                                  <button class="btn btn-secondary mr-2" data-toggle="modal" data-target="#flagIllustrator">Hide</button>
+                                  <button class="btn btn-warning mr-2" data-toggle="modal" data-target="#flagIllustrator">Flag</button>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                          <!-- COMMENTS SECTION -->
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <!-- END -->
+  </div>
+</div>
+<!-- DASHBOARD OPTION PROJECT LISTING END  -->
+<!-- DASHBOARD MESSAGE COLUMN START -->
+<div class="col-sm-12 col-lg-6">
+  <div class="border border-dark rounded-lg p-4">
+    <h3 class="font-weight-bold h1 mb-3">Messages</h3>
+    <p class="lead font-italic mb-3">
+      Newest and recent messages can be viewed here. You can view your archived messages in your Inbox from the menu bar. To recover deleted messages, please contact support.
+    </p>
+    <div class="my-3 bg-dark text-white py-3 rounded-lg">
+      <h5 class="pt-2 px-3">New Message <span class="font-italic">(1)</span></h5>
+    </div>
+    <!-- NEW MESSAGE DIV START -->
+    <div class="border border-dark rounded-lg p-3">
+      <!-- ICON AND NAME DIV -->
+      <div class="d-flex flex-wrap">
+        <img src="img/message-user.svg" alt="Message User Icon" class="mr-3">
+        <div>
+          <p class="mb-0 font-weight-bold">Norman Amin</p>
+          <p class="font-italic mb-0">3/02/2020 ~ 5:09PM</p>
+          <p class="font-italic font-weight-bold">Typography Poster</p>
+        </div>
+      </div>
+      <!-- icon and name end -->
+      <!-- Message -->
+      <p class="border rounded-lg p-2">
+        Just checked on the designs. So far so good. Tip for next time though, use the pathfinder tool when cutting shapes. I know you hate Illustrator but the Pathfinder tool's one of those things you'll always use in AI. See ya on our meeting.
+      </p>
+      <button class="btn btn-primary mr-2" data-toggle="modal" data-target="#replyMsgModal">Reply</button>
+      <button class="btn btn-danger" data-toggle="modal" data-target="#flagMsgModal">Delete</button>
+      <!-- Reply Message Modal -->
+      <div class="modal fade" id="replyMsgModal" tabindex="-1" role="dialog" aria-labelledby="replyMsgModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="replyMsgModalLabel">Reply</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" class="form-control" ></textarea>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Reply msg modal end -->
+      <!-- Flag msg Modal Start -->
+      <div class="modal fade" id="flagMsgModal" tabindex="-1" role="dialog" aria-labelledby="flagMsgModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="flagMsgModalLabel">Delete Message</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Are you sure you want to delete this message?
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FLag Msg Modal End -->
+    </div>
+    <!-- END NEW MESSAGE DIV -->
+    <h5 class="bg-secondary my-3 text-white p-3 rounded-lg">Recent Messages <span class="font-italic">(2)</span></h5>
+    <!-- RECENT MESSAGE START -->
+    <!-- 1ST RECENT MESSAGE -->
+    <div class="border border-secondary rounded-lg p-3 mb-3">
+      <div>
+        <div class="d-flex flex-wrap">
+          <img src="img/message-user.svg" alt="Message User Icon" class="mr-3">
+          <div>
+            <p class="mb-0 font-weight-bold">Lolito Salva</p>
+            <p class="font-italic mb-0">2/28/2020 ~ 2:45PM</p>
+            <p class="font-italic font-weight-bold">Brand Overhaul Funds</p>
+          </div>
+        </div>
+        <p class="border rounded-lg p-2">
+          The overall estimate for our marketing campaign expenses is done. We only need your review and signature and we're set for the final phase.
+        </p>
+      </div>  
+      <button class="btn btn-primary mr-2" data-toggle="modal" data-target="#replyMsgModal">Reply</button>
+      <button class="btn btn-danger" data-toggle="modal" data-target="#flagMsgModal">Delete</button>
+    </div>
+    <!-- 1ST RECENT END -->
+    <!-- 2ND RECENT MESSAGE -->
+    <div class="border border-secondary rounded-lg p-3">
+      <div>
+        <div class="d-flex flex-wrap">
+          <img src="img/message-user.svg" alt="Message User Icon" class="mr-3">
+          <div>
+            <p class="mb-0 font-weight-bold">Lara Mcmillan</p>
+            <p class="font-italic mb-0">2/26/2020 ~ 3:00AM</p>
+            <p class="font-italic font-weight-bold">Forgot some Gutters</p>
+          </div>
+        </div>
+        <p class="border rounded-lg p-2">
+          I need to redo the layout for the type poster. I forgot to add the gutters on my grid.
+        </p>
+      </div>  
+      <button class="btn btn-primary mr-2" data-toggle="modal" data-target="#replyMsgModal">Reply</button>
+      <button class="btn btn-danger" data-toggle="modal" data-target="#flagMsgModal">Delete</button>
+    </div>
+    <!-- 2ND RECENT MESSAGE END -->
+    <!-- RECENT MESSAGE END -->
+  </div>
+</div>   
+<!-- DASHBOARD MESSAGE COLUMN END -->
+</div>
+
+
+    </div>
+</section>
+<!-- FOOTER -->
+    <footer class="bg-dark text-light py-3">
+      <div class="container">
+        <p class="mb-0">
+          This is a lab work using CSS Frameworks (Bootstrap 4) for Web UI/UX Course 2020.
+        </p>
+      </div>
+    </footer>
+<!-- FOOTER -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+          $('[data-toggle="popover"]').popover({
+           // trigger: 'click',
+            trigger: 'hover',
+            html: true,
+              content: function() {
+                  return $('#popover-content').html();
+              },
+            html: true,
+            content: function() {
+                return $('#popover-content-2').html();
+            }
+          })
+        })
+    </script>
+  </body>
+</html>
